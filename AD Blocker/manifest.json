@@ -1,10 +1,13 @@
 {
-	"name": "Ad blocker",
-	"version": "1.0",
-	"description": "A simple and eficient Ad Blocker",
-	"permissions": ["webRequest", "webRequestBlocking", "http://*/", "https://*/"],
-	"background": {
-		"scripts": ["blocked_domains.js", "background.js"]
-	},
-	} 
+  "name": "Adblocker",
+  "version": "1.0",
+  "description": "A simple adblocker",
+  "permissions": ["webRequest", "webRequestBlocking", "http://*/", "https://*/"],
+  ""background": {
+    "scripts": ["blocked_domains.js", "background.js"]
+  },
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 2
 }
