@@ -1,6 +1,6 @@
 # SquadASA_CS200Project
 
-# 1. Welcome to YouTube Automatic Ad-Skipper
+# 2. YouTube Automatic Ad-Skipper
 Youtube-ad-skipper ia a project aimed at skipping all the skippable youtube ads automatically. Works for ads at the beinging and in the middle of videos as well as the pop-up banner ads. Does not work for ads that have no skip option.
 
 # How it Works
