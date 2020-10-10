@@ -9,13 +9,13 @@ This is a browser extension that runs a content script everytime you load a page
 Mid-video ads and banner adds are detected by a mutation observer that is added to the page whenever a new video is started. This listenes for added or removed child elements in "video-ads" DIV.
 
 # How to Install
-a. Click the green "Clone or Download" button
-b. Click "download ZIP"
-c. Unzip the folder and put it anywhere you like
-d. Open a new tab in your Chrome browser and type in "chrome://extensions" in the search bar. Press enter.
-e. In the upper right corner, turn "Developer Mode" on.
-f. Click "load unpacked"
-g. Find the folder you just downloaded/unzipped "youtube_ad_skipper-master" and click "Select Folder"
-h. Turn "Developer Mode" off
+1. Click the green "Clone or Download" button
+2. Click "download ZIP"
+3. Unzip the folder and put it anywhere you like
+4. Open a new tab in your Chrome browser and type in "chrome://extensions" in the search bar. Press enter.
+5. In the upper right corner, turn "Developer Mode" on.
+6. Click "load unpacked"
+7. Find the folder you just downloaded/unzipped "youtube_ad_skipper-master" and click "Select Folder"
+8. Turn "Developer Mode" off
 
 *** if you are getting an error that says " Manifest file is missing or unreadable" it's likey because the "youtube_ad_skipper-master" folder has another folder within it (with the same name).If thats the case, make sure you select the folder within the folder.
