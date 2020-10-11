@@ -3,7 +3,7 @@
   "version": "1.0",
   "description": "A simple adblocker",
   "permissions": ["webRequest", "webRequestBlocking", "http://*/", "https://*/"],
-  ""background": {
+  "background": {
     "scripts": ["blocked_domains.js", "background.js"]
   },
   "browser_action": {
