@@ -3,6 +3,7 @@ var blocked_domains = [
 "*://usemaxserver.de/",
 "*://*.usemax.de/*",
 "*://*.zv1.november-lax.com/*",
+"*://*.doubleclick.net/*",
 "*://*.zmedia.com/*"
 ];
 
