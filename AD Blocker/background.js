@@ -1,6 +1,6 @@
 chrome.webRequest.onBeforeRequest.addListener(
 	function(details) {
-		return {cancel: enabled };
+		return {cancel: true};
 	},
 	{urls: blocked_domains},
 	["blocking"]
