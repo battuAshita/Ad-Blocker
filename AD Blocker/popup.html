@@ -1,10 +1,121 @@
+<!DOCTYPE html>
 <html>
-<head>
-        <script src="popup.js"></script>
-</head>
-<body>
-	<h3>Adblocker</h3>
-	<input type="button" id="toggle_button" value="Disable" />
-	<hr>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <link rel="icon" type="image/png" href="https://www.iconfinder.com/data/icons/social-messaging-productivity-5/128/adblock1-512.png">
+    <style>
+    body
+    {
+      margin: 0;
+      border: none;
+      padding: 0;
+    }
+
+    #content
+    {
+      border: none;
+      position: fixed;
+      width: 100%;
+      height: 100%;
+    }
+    .myDiv {
+     border: 5px outset red;
+    background-color: lightblue;
+    text-align: center;
+    }
+
+    .iconDetails {
+    margin-left:2%;
+    float:left;
+    height:60px;
+    width:60px;
+}
+
+    .container2 {
+	width:270px;
+	height:auto;
+	padding:1%;
+    float:left;
+}
+    h4{margin:0}
+
+   </style>
+
+      <script src="popup.js"></script>
+  </head>
+  <body style = "background-color: powderblue">
+
+        <div class ='container2'>
+                <div class="left">
+                <img src="https://www.iconfinder.com/data/icons/social-messaging-productivity-5/128/adblock1-512.png"  class="iconDetails">
+            </div>
+            <div class="right">
+               <br> <h4 style="font-size:200%;"> AD Blocker  </h4>
+                <br>
+                <h3 style="text-align: center"> CUSTOM SETTINGS </h3>
+
+                <p>Choose what to block:</p>
+                <fieldset>
+      <dl>
+        <dt><label for="cookies">Cookies: </label></dt>
+        <dd><select id="cookies" >
+          <option value="allow">Allow</option>
+          <option value="session_only">Session only</option>
+          <option value="block">Block</option>
+        </select></dd>
+
+        <dt><label for="images">Images: </label></dt>
+        <dd><select id="images" >
+          <option value="allow">Allow</option>
+          <option value="block">Block</option>
+        </select><dd>
+  
+        <dt><label for="location">Location: </label></dt>
+        <dd><select id="location" >
+          <option value="allow">Allow</option>
+          <option value="ask">Ask</option>
+          <option value="block">Block</option>
+        </select></dd>
+
+        <dt><label for="plugins">Plugins: </label></dt>
+        <dd><select id="plugins" >
+          <option value="allow">Allow</option>
+          <option value="block">Block</option>
+        </select></dd>
+
+        <dt><label for="popups">Pop-ups: </label></dt>
+        <dd><select id="popups" >
+          <option value="allow">Allow</option>
+          <option value="block">Block</option>
+        </select></dd>
+
+        <dt><label for="notifications">Notifications: </label></dt>
+        <dd><select id="notifications" >
+          <option value="allow">Allow</option>
+          <option value="ask">Ask</option>
+          <option value="block">Block</option>
+        </select></dd>
+       
+        <dt><label for="automaticDownloads">Automatic Downloads: </label></dt>
+        <dd><select id="automaticDownloads" >
+          <option value="allow">Allow</option>
+          <option value="ask">Ask</option>
+          <option value="block">Block</option>
+        </select></dd>
+      </dl>
+    </fieldset>
+
+
+            </div>
+        </div>
+
+        <div class="myDiv">
+        </div>
+
+
+
+
+    <iframe id="content" data-src="desktop-options.html" data-src-fennec="mobile-options.html"></iframe>
+  </body>
 </html>
