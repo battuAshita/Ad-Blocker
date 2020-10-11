@@ -4,7 +4,7 @@
 Automatic Ad-blocker is a project (browser extension) aimed at blocking all the browser ads automatically. Works for all blockable browser ads as well as pop-up banner ads.
 
 # How it Works
-This is a 
+This is a browser extension that runs a content script everytime you load a page thats on any browser. Whenever it detects that you've started a new tab or new browser page, a function is run that repeatedly tries to 
 
 # 2. YouTube Automatic Ad-Skipper
 Youtube-ad-skipper is a project aimed at skipping all the skippable youtube ads automatically. Works for ads at the beinging and in the middle of videos as well as the pop-up banner ads. Does not work for ads that have no skip option.
