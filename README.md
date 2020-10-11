@@ -15,7 +15,7 @@ This is a browser extension that runs a content script everytime you load a page
 
 Mid-video ads and banner adds are detected by a mutation observer that is added to the page whenever a new video is started. This listenes for added or removed child elements in "video-ads" DIV.
 
-# How to Install 
+# **How to Install** 
 1. Click the green "Clone or Download" button
 2. Click "download ZIP"
 3. Unzip the folder and put it anywhere you like
